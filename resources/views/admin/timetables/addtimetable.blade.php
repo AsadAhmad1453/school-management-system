@@ -105,7 +105,7 @@
 						<th scope="col">Short Time</th>
 						<th scope="col">Start Time </th>
 						<th scope="col">End Time</th>
-						<th scope="col"><button class="btn">Action</button></th>
+						<th scope="col"><a class="btn">Action</a></th>
 
 						</tr>
 					</thead>
@@ -121,8 +121,19 @@
 					</table>
 
 			</div>
+			
 
 		</div>
+
+		<div class="row mt-3">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary timetable-btn float-end m-3">Save</button>
+                </div>
+         </div>
+		
+
 	</form>
 </div>
+
+
 @endsection
