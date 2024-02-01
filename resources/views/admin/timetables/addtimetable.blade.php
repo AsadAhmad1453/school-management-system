@@ -88,14 +88,41 @@
 
 			</div>
 			<div class="col-6" style="border: 2px solid blacks;">
-				<label for="inputPassword5" class="form-label">Password</label>
-				<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+				<label for="inputPassword5" class="form-label">Lesson Duration</label>
+				<input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 			</div>
 			<div class="col-6">
-				<label for="inputPassword5" class="form-label">Password</label>
-				<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+				<label for="inputPassword5" class="form-label">Bell Duration</label>
+				<input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 			</div>
-		</div>hhgh
+		</div>
+		<div class="row mt-3">
+			<div class="col-12">
+
+			<table class="table">
+					<thead>
+						<tr>
+						<th scope="col">Short Time</th>
+						<th scope="col">Start Time </th>
+						<th scope="col">End Time</th>
+						<th scope="col"><button class="btn">Action</button></th>
+
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<th>p1</th>
+						<td>9:50</td>
+						<td>11:00</td>
+						<td></td>
+						</tr>
+						
+					</tbody>
+					</table>
+
+			</div>
+
+		</div>
 	</form>
 </div>
 @endsection
