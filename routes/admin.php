@@ -39,6 +39,7 @@ Route::group(['middleware' => ['auth']], function () {
     Route::resource('professors', ProfessorsController::class);
     Route::resource('classes', CollegeClassesController::class);
     Route::resource('timetables', TimetablesController::class);
+    Route::get('addtimetable',[TimetablesController::class,'addtimetable'])->name('add-time-table');
     Route::get('timetables/view/{id}', [TimetablesController::class, 'view'])->name('timetables.view');
 
 

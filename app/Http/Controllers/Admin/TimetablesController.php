@@ -65,10 +65,10 @@ class TimetablesController extends Controller
             $classNames[] = $class->name;
         }
 
-// Join class names with a space
+        // Join class names with a space
         $classList = implode(' ', $classNames);
 
-// Now you can use $classList in your $name variable
+     // Now you can use $classList in your $name variable
         $name = $classList . ' ' . $request->academic_year;
 
 
@@ -117,6 +117,11 @@ class TimetablesController extends Controller
             $timetableName = $timetable->name;
             return view('admin.timetables.view', compact('timetableData', 'timetableName'));
         }
+    }
+
+    public function addtimetable()
+    {
+        return view('admin.timetables.addtimetable');
     }
 
     /**

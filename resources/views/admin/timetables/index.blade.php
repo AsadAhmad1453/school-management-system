@@ -1,6 +1,12 @@
 @extends('admin.layout.master')
 
 @section('style')
+    <style>
+        .timetable-btn{
+            text-decoration: none;
+            color: white !important;
+        }
+    </style>
     <link rel="stylesheet" href="{{asset('assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css')}}">
     <link rel="stylesheet" href="{{asset('assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css')}}">
 @endsection
@@ -11,10 +17,7 @@
                 <h5 class="card-header">Rooms list</h5>
             </div>
             <div class="col-md-6">
-                <form method="post" action="{{ route('timetables.store') }}">
-                    @csrf
-                    <button type="submit" class="btn btn-primary float-end m-3">Create Timetable</button>
-                </form>
+                <a href="{{route('add-time-table')}}" class="btn btn-primary timetable-btn float-end m-3">Create Timetable</a>
             </div>
         </div>
         <div class="card-datatable text-nowrap">
