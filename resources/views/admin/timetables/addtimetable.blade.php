@@ -88,14 +88,14 @@
 
 			</div>
 			<div class="col-6" style="border: 2px solid blacks;">
-				<label for="inputPassword5" class="form-label">Password</label>
-				<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+				<label for="inputPassword5" class="form-label">Lesson Duration </label>
+				<input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 			</div>
 			<div class="col-6">
-				<label for="inputPassword5" class="form-label">Password</label>
-				<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+				<label for="inputPassword5" class="form-label">Bell Duration</label>
+				<input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 			</div>
-		</div>hhgh
+		</div>
 	</form>
 </div>
 @endsection
