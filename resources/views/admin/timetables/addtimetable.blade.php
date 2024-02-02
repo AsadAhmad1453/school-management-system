@@ -96,6 +96,44 @@
 				<input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
 			</div>
 		</div>
+		<div class="row mt-3">
+			<div class="col-12">
+
+			<table class="table">
+					<thead>
+						<tr>
+						<th scope="col">Short Time</th>
+						<th scope="col">Start Time </th>
+						<th scope="col">End Time</th>
+						<th scope="col"><a class="btn">Action</a></th>
+
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+						<th>p1</th>
+						<td>9:50</td>
+						<td>11:00</td>
+						<td></td>
+						</tr>
+						
+					</tbody>
+					</table>
+
+			</div>
+			
+
+		</div>
+
+		<div class="row mt-3">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary timetable-btn float-end m-3">Save</button>
+                </div>
+         </div>
+		
+
 	</form>
 </div>
+
+
 @endsection
